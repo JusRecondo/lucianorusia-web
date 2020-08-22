@@ -1,0 +1,135 @@
+.container-fluid, main, nav, footer {
+    background-color: #000000 !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.social-icon-list {
+    padding: 16px;
+}
+
+header, main, a {
+    color: #ffffff !important;
+}
+
+a:hover {
+    color: rgb(207,160, 128) !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif !important;
+}  
+
+p, li, a {
+    font-family: 'Lato', sans-serif !important;
+}
+
+
+.link-album {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 600px) {
+    .link-album {
+        font-size: 1rem; 
+    }
+  }
+
+
+.parallax-header {
+    background-image: url("img/foto-header.jpg");
+  
+    height: 1080px;
+    width: auto; 
+
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20px;
+  }
+
+@media screen and (min-width: 600px) {
+    .parallax-header {
+        height: 800px; 
+    }
+} 
+
+.text-header {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top: 45%;
+    bottom: 65%;
+    left: 20%;
+}
+
+@media screen and (max-width: 600px) {
+    .text-header {
+        left: 8%;
+        /* background-color: rgb(207,160, 128, 0.5);  */ 
+    }
+}
+
+
+
+.parallax-bio {
+    background-image: url("img/foto-bio.jpg");
+  
+    min-height: 1080px;
+    width: auto; 
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.text-box{
+	height: auto;
+    padding: 100px 40px 10px 40px; 
+    margin-left: 50px;
+    text-align: left;
+    background-color: rgb(207,160, 128, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+    .text-box {
+        margin: auto; 
+    }
+}
+
+
+.portfolio-img {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.border-white {
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.pt-50px{
+    padding-top:50px;
+}
+ 
+.mt-30px {
+    margin-top:30px;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 50px;    
+}
+
+footer {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
